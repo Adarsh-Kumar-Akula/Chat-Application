@@ -10,7 +10,6 @@ It allows users to **sign up, log in, add friends, and chat in real-time**, all 
 ### **Backend**
 - **Python** (Django Framework)
 - **Django Channels** (WebSockets for real-time chat)
-- **Redis** (as message broker)
 - **SQLite / PostgreSQL** (Database)
 - **Django REST Framework** (for REST APIs)
 
