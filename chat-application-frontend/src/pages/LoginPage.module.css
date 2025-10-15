@@ -1,0 +1,52 @@
+/* src/pages/LoginPage.module.css */
+
+.loginButton {
+    background-color: #4CAF50;
+    width: 25%;
+    padding: 15px;
+    color: black;
+    border: none;
+    font-size: 15px;
+}
+
+.loginButton:hover {
+    opacity: 0.7;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.form {
+    border: 3px solid #f1f1f1;
+}
+
+.inputField {
+    width: 50%;
+    font-size: 15px;
+    margin: 8px 0px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px;
+    background-color: white;
+}
+
+/* The following classes were in the CSS but were not used in the provided HTML form 
+   structure, so they are included here but commented as they might be obsolete. 
+   They are left in case you intend to add an avatar image later. */
+/*
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+*/

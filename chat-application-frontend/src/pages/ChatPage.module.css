@@ -1,0 +1,173 @@
+/* ===== Global Reset ===== */
+
+
+/* ===== Top Navigation ===== */
+/* .topnav {
+  background: linear-gradient(135deg, white, blue);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+.topnav button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.topnav button:hover {
+  background-color: darkgreen;
+}
+
+.topnav label {
+  color: #f2f2f2;
+  font-size: 17px;
+}
+
+/* ===== Layout ===== */
+.inrow {
+  display: flex;
+  height: 90vh;
+} 
+
+/* ===== Contacts Section ===== */
+.contacts_cont {
+  background-color: rgb(242, 242, 169);
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#contacts_label {
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+.friend {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.friend:hover {
+  background: linear-gradient(135deg, blue, white);
+  color: white;
+}
+
+/* ===== Chat Section ===== */
+.chatbox {
+  background-color: grey;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#receiver_name_div {
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  height: 5vh;
+}
+
+/* ===== Chat Content ===== */
+#chat_content {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+/* Sent Messages */
+.sent_msg_div {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.sent_msg {
+  background-color: rgb(154, 244, 76);
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 15px;
+  margin-right: 10px;
+  word-break: break-word;
+}
+
+/* Received Messages */
+.received_msg_div {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.received_msg {
+  background-color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 15px;
+  margin-left: 10px;
+  word-break: break-word;
+}
+
+/* ===== Message Input Area ===== */
+#message_form {
+  display: flex;
+  width: 100%;
+  height: 8vh;
+  background-color: white;
+  border-top: 1px solid #ccc;
+}
+
+#message {
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+#message:focus {
+  outline: none;
+}
+
+#enter_btn {
+  width: 8vw;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+#enter_btn:hover {
+  background-color: darkgreen;
+}
+
+/* ===== Username Popup ===== */
+.user_name_box {
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  padding-top: 30
+}
